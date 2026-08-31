@@ -1,5 +1,7 @@
 # SE Lab 1: Requirements Engineering & UML Use-Case Modelling
 
+**Name-** Harshith Kumar S  
+**SRN-** PES1UG25CS815  
 **Course:** Software Engineering Lab  
 **Institution:** PES University – Dept. of CSE  
 **Problem Statement #62:** Sustainability & Green Tech  
@@ -225,47 +227,4 @@ SE-LAB-1/
 
 ---
 
-# 6. Lab 1 Deliverables
 
-| Requirement | Status |
-|---|---|
-| 5 Functional Requirements | ✅ Completed |
-| 2 Non-Functional Requirements | ✅ Completed |
-| Requirement IDs FR-001 to FR-005 | ✅ Completed |
-| Requirement IDs NFR-001 to NFR-002 | ✅ Completed |
-| Requirement descriptions | ✅ Completed |
-| Priorities | ✅ Completed |
-| Acceptance criteria | ✅ Completed |
-| Rationales | ✅ Completed |
-| At least 3 actors | ✅ Completed |
-| At least 5 use cases | ✅ Completed |
-| `<<include>>` relationship | ✅ Completed |
-| `<<extend>>` relationship | ✅ Completed |
-| UML Use-Case Diagram | ✅ Completed |
-| Use-Case Flow | ✅ Completed |
-| Preconditions | ✅ Completed |
-| Postconditions | ✅ Completed |
-| Main Success Scenario | ✅ Completed |
-| Alternate Flow | ✅ Completed |
-
----
-
-# 7. Submission
-
-Before submitting the GitHub repository:
-
-1. Add your **Name** and **SRN** at the top of this README.
-2. Verify all documents in the `docs` folder.
-3. Verify the UML diagram in the `diagrams` folder.
-4. Open the UML PNG to confirm that the diagram is visible.
-5. Check the requirements table for exactly 5 FRs and 2 NFRs.
-6. Check the Use-Case Flow PDF.
-7. Commit and push all files to the Lab 1 GitHub repository.
-
----
-
-## 🎓 Software Engineering Lab 1
-
-**PES University – Dept. of CSE**
-
-**Problem Statement #62 – Food Bank Surplus Redistribution Platform**
