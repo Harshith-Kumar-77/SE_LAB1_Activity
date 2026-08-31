@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="UML Use Case Diagram">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="boundary" value="Food Bank Surplus Redistribution Platform" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="260" y="40" width="820" height="680" as="geometry"/></mxCell>
+        <mxCell id="d" value="Donor Partner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="80" y="120" width="60" height="100" as="geometry"/></mxCell>
+        <mxCell id="s" value="Shelter Coordinator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="70" y="390" width="90" height="100" as="geometry"/></mxCell>
+        <mxCell id="n" value="Notification Service" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="1110" y="300" width="90" height="100" as="geometry"/></mxCell>
+        <mxCell id="u1" value="UC-01 Register / Verify Partner" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="90" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="u2" value="UC-02 Post Surplus Food Batch" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="650" y="90" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="u3" value="UC-03 Browse Available Batches" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="230" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="u4" value="UC-04 Reserve Pickup Window" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="650" y="230" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="u5" value="UC-05 View Reservation &amp; Verification Code" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="370" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="u6" value="UC-06 Mark Batch Expired" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="650" y="370" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="u7" value="UC-07 Send Nearby Shelter Notification" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="650" y="510" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="u8" value="UC-08 Validate Food Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="510" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="u9" value="UC-09 Verify Shelter Eligibility" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="630" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="e1" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="d" target="u1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="d" target="u2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="d" target="u5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="s" target="u3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="s" target="u4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="s" target="u5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="n" target="u7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="i1" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;html=1;" edge="1" parent="1" source="u2" target="u8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="i2" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;html=1;" edge="1" parent="1" source="u4" target="u9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x1" value="&lt;&lt;extend&gt;&gt; [high quantity + perishable]" style="dashed=1;endArrow=open;html=1;" edge="1" parent="1" source="u7" target="u2"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
